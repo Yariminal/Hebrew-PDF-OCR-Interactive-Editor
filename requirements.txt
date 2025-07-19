@@ -1,0 +1,4 @@
+surya-ocr
+transformers
+pdf2image
+Pillow
