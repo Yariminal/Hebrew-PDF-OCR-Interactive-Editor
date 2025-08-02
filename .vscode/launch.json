@@ -11,6 +11,15 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
+        },
+
+    ],
+    "inputs": [
+        {
+            "id": "filePath",
+            "type": "promptString",
+            "description": "Enter the path to the file you want to convert to Markdown",
+            "default": "input_data/sample.pdf"
         }
     ]
 }
